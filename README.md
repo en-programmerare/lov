@@ -8,11 +8,4 @@ Gå till [Lovnedräknarens startsida](https://en-programmerare.github.io/lov/) f
 - Sportlov [Pexels](https://www.pexels.com/sv-se/foto/1315909/), skapare G
 - Påsklov [Aktivitetshuset Älmhult](https://aktivitetshusetalmhult.se/paskris/)
 - Sommarlov [Pexels](https://www.pexels.com/sv-se/foto/131525/), skapare Anette Frejd
-### Gymnasier
-- Östra gymnasiet: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:%C3%96stra_Gymnasiet_Huddinge_kommun.jpg), skapare Larske
-- Arlandagymnasiet: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Arlandagymnasiet.jpg), skapare Ulff
-- Tumba gymnasium: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Tumba_gymnasium_med_Xenter.JPG), skapare Hangsna
-- Globala gymnasiet: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Zinkendammsskolan2010c.JPG), skapare Ankara
-- Tullinge gymnasium:
-- Värmdö gymnasium:
-- Franska skolans gymnasium:
+- Student [Mitt i](https://www.mitti.se/nyheter/da-springer-studenterna-ut/lmqeE!1660333/)
