@@ -1,0 +1,26 @@
+.pask {
+  text-align: center;
+  font-size: 10vw;
+  font-style: italic;
+  color: limegreen;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 2px white;
+}
+.paskBakgrund {
+  background-image: url('https://aktivitetshusetalmhult.se/wp-content/uploads/2018/03/P%C3%A5skris.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 620px) {
+   .pask {
+      text-shadow: 2px 1px white;
+   }
+}

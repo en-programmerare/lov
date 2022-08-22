@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Lovnedräknarens inställningssida. Här kan du välja vilken skola och klass du går i, och vilket lov du vill räkna ner till.">
+    <meta name="author" content="En programmerare">
+    
+    <title>Ställ in lovnedräknaren</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="stylesheets/common.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/setup.css" type="text/css" media="all">
+    
+    <script src="scripts/common.js"></script>
+    <script src="scripts/presets.js"></script>
+    <script src="scripts/setup.js"></script>
+</head>
+<body>
+   <h1 class="heading">Ställ in din lovnedräknare</h1>
+   <br>
+   <br>
+   
+   <section class="settingsGroup">
+      <h2 class="smallHeading">Välj skola, klass och lov</h2><br>
+      <form>
+         <select name="schoolSelection" id="schoolSelection" class="alignedSelection">
+            <!--Den här väljaren fylls automatiskt i-->
+         </select>
+         <select name="classSelection" id="classSelection" class="alignedSelection" disabled>
+            <!--Den här väljaren fylls automatiskt i, beroende på schoolSelection-->
+         </select>
+         <select name="breakSelection" id="breakSelection" class="alignedSelection" disabled>
+            <!-- Den här väljaren fylls automatiskt i, beroende på classSelection-->
+         </select><br><br>
+         <button type="button" id="applyButton" disabled>Verkställ</button>
+         <button type="button" id="shareButton" disabled>Dela URL</button>   
+         <output id="shareOutput"></output>
+      </form>
+   </section>
+   
+   <p class="italic">eller...</p>
+   
+   <section class="settingsGroup">
+      <h2 class="smallHeading">Skapa en anpassad lovnedräknare</h2>
+      
+      <p>Frågan är om jag orkar lägga in en sådan funktion...</p>
+   </section>
+</body>
+</html>

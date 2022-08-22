@@ -1,0 +1,32 @@
+URL formateras som följer:
+
+
+
+https://en-programmerare.github.io/lov?
+Argument:
+(valfri) klass=<klass-id>@<skol-id>/"anpassad"/"standard" t.ex. tetees20@ostra (default "standard") 
+(valfri) lov=<lov-id>/"nasta" (default "nasta")
+
+
+Anpassade inställningar läses från lokal lagring i "lovnedraknarenCustomSettings"
+JSON-fil med format som en klass:
+{
+   breaks: [
+      {
+         id: "host",
+         startDate: "2022-10-26",
+         startTime: "15:25",
+         endDate: "2022-11-03",
+         endDate: "00:00"
+      },
+      <osv>
+   ]
+}
+Lägg märket till att alla fält måste vara definierade, till skillnad från en vanlig klass där en
+fallback kan användas.
+
+
+Standardläge utgörs som standard av "tetees20@ostra" men kan anpassas i lokal lagring "lovnedraknarenStandard".
+Inställningssidan tar hand om det automatiskt.
+
+Standard för nästa lov kan anpassas i lokallagring "lovnedraknarenStandardLov"

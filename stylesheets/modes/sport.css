@@ -1,0 +1,26 @@
+.sport {
+  text-align: center;
+  font-size: 10vw;
+  font-style: italic;
+  color: white;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 2px red;
+}
+.sportBakgrund {
+  background-image: url('https://images.pexels.com/photos/1315909/pexels-photo-1315909.jpeg?cs=srgb&dl=aka-skidor-skidakning-skidort-1315909.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 620px) {
+   .sport {
+      text-shadow: 2px 1px red;
+   }
+}

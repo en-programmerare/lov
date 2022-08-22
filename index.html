@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Lovnedräknaren visar hur lång tid det är kvar till lovet. Ställ in om du vill att den ska räkna ner till höstlovet, jullovet, sportlovet, påsklovet, sommarlovet eller studenten.">
+    <meta name="author" content="En programmerare">
+
+    <title>Lovnedräknaren</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="stylesheets/countdown.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/common.css" type="text/css" media="all">
+    
+    <link rel="stylesheet" href="stylesheets/modes/sommar.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/modes/host.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/modes/jul.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/modes/sport.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/modes/pask.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/modes/student.css" type="text/css" media="all">
+    
+    <script src="scripts/common.js"></script>
+    <script src="scripts/presets.js"></script>
+    <script src="scripts/countdown.js"></script>
+</head>
+<body>
+   <noscript>
+      <aside class="freefloatGroup freefloat toast error" id="noScriptError">
+         Javascript är inte aktiverat. Därför fungerar inte lovnedräknaren. Prova att aktivera Javascript.
+      </aside>
+   </noscript>
+   <aside class="freefloatGroup freefloat toast inactive" id="properties">
+      <div class="headingBackground">
+         <h1 class="smallHeading">Välkommen till Lovnedräknaren!</h1>
+      </div>
+      <p>
+         Ställ in vilka lov du vill att Lovnedräknaren ska räkna ner till på anpassningssidan.<br>
+         Just nu räknar den ner till:<br>
+         Skola: <output id="schoolInformationOutput"></output><br>
+         Klass: <output id="classInformationOutput"></output><br>
+         ID: <output id="idInformationOutput"></output>
+      </p>
+      <div class="centeredText">
+         <a href="setup.html">
+            <button>Gå till anpassningssidan</button>
+         </a>
+      </div>
+   </aside>
+   
+   <div id="countdown" class="noselect">
+      <!--Det här elementet fylls i programmatiskt -->
+   </div>
+</body>
+</html>
