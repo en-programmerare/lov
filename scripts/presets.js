@@ -50,8 +50,8 @@ const LovnedraknarePresets = {
          ],
          classes: [
             {
-               name: "TETEES20",
-               id: "tetees20",
+               name: "TETE20",
+               id: "tete20",
                breaks: [
                   {
                      id: "host",
@@ -74,8 +74,8 @@ const LovnedraknarePresets = {
                ]
             },
             {
-               name: "NANASAES20",
-               id: "nanasaes20",
+               name: "NANASA20",
+               id: "nanab20",
                breaks: [
                   {
                      id: "host",
