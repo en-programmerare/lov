@@ -179,8 +179,8 @@ LovnedraknarePresets, config, storageAvailable
    //Ladda anpassade lovinställningar
    function loadCustomSettings() {
       console.log("Load custom settings");
-      alert("Kommer snart!");
-      return undefined;
+      alert("Kommer snart! Under tiden får du se standardinställningarna.");
+      return loadStandardSettings();
    }
    
    //Ladda standardinställningar, används som fallback
