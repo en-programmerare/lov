@@ -1,15 +1,5 @@
 .sport {
-  text-align: center;
-  font-size: 10vw;
-  font-style: italic;
   color: white;
-  margin-top: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
   text-shadow: 3px 2px red;
 }
 .sportBakgrund {
