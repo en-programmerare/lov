@@ -144,8 +144,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         }
 
         //Uppdatera även classSelection
-        let event = new Event("change");
-        classSelectionElem.dispatchEvent(event);
+        classSelectionElem.dispatchEvent(new Event("change"););
 
         //Slå av och på klassväljaren
         function setClassSelectionEnabled(on) {
