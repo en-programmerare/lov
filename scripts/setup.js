@@ -184,8 +184,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         }
 
         //Uppdatera även breakSelection
-        let event = new Event("change");
-        breakSelectionElem.dispatchEvent(event);
+        breakSelectionElem.dispatchEvent(new Event("change"););
 
         //Slå av och på lovväljaren
         function setBreakSelectionEnabled(on) {

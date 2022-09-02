@@ -97,7 +97,41 @@ const LovnedraknarePresets = {
                   }
                ]
             }
-         ]
+         ],
+		 flags: [
+			{
+				name: "Indval IDH 2",
+				id: "idh2",
+				breaks: [
+					{
+						id: "host",
+						startTime: "16:00"
+					},
+					{
+						id: "sport",
+						startTime: "16:00"
+					}
+				]
+			},
+			{
+				name: "Indval japanska 2",
+				id: "jap2",
+				breaks: [
+					{
+						id: "host",
+						startTime: "14:35"
+					},
+					{
+						id: "sport",
+						startTime: "14:35"
+					},
+					{
+						id: "pask",
+						startTime: "16:45"
+					}
+				]
+			}
+		 ]
       }
    ],
     
