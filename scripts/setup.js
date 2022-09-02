@@ -144,7 +144,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         }
 
         //Uppdatera även classSelection
-        classSelectionElem.dispatchEvent(new Event("change"););
+        classSelectionElem.dispatchEvent(new Event("change"));
 
         //Slå av och på klassväljaren
         function setClassSelectionEnabled(on) {
@@ -184,7 +184,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         }
 
         //Uppdatera även breakSelection
-        breakSelectionElem.dispatchEvent(new Event("change"););
+        breakSelectionElem.dispatchEvent(new Event("change"));
 
         //Slå av och på lovväljaren
         function setBreakSelectionEnabled(on) {
@@ -291,9 +291,9 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
 
     function getUrlFromSelection() {
         if (isSelectionCorrect()) {
-            let schoolSelection = document.getElementById(config.schoolSelectionId).value;
-            let classSelection = document.getElementById(config.classSelectionId).value;
-            let breakSelection = document.getElementById(config.breakSelectionId).value;
+            let schoolSelection = document.getElementById(config.schoolSelectionId).value.replace(/[\"\<\>\(\)]/gm, "");
+            let classSelection = document.getElementById(config.classSelectionId).value.replace(/[\"\<\>\(\)]/gm, "");
+            let breakSelection = document.getElementById(config.breakSelectionId).value.replace(/[\"\<\>\(\)]/gm, "");
 
             let url = window.location.href;
             url = url.substring(0, url.lastIndexOf("/"));
