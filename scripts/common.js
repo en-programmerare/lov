@@ -165,3 +165,7 @@ window.addEventListener("load", function () {
 
     console.log("%cInte ens här slipper man undan comic sans", "font-family: 'Comic sans MS', mono;");
 });
+
+Element.prototype.setScriptEscapedText = function(text) {
+	this.innerText = text.replace(/[\<\>\(\)\"\'`]/gm, "");
+}

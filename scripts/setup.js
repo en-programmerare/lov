@@ -37,7 +37,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         defaultOption.selected = true;
         defaultOption.id = "defaultSchoolSelectionOption";
         defaultOption.value = "invalid";
-        defaultOption.innerText = "Skola...";
+        defaultOption.setScriptEscapedText("Skola...");
 
         schoolSelectionElem.appendChild(defaultOption);
 
@@ -49,7 +49,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
 
             let option = document.createElement("OPTION");
             option.value = school.id;
-            option.innerText = school.name;
+            option.setScriptEscapedText(school.name);
 
             schoolSelectionElem.appendChild(option);
         });
@@ -68,7 +68,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         classes.forEach(function (klass) {
             let option = document.createElement("OPTION");
             option.value = klass.id;
-            option.innerText = klass.name;
+            option.setScriptEscapedText(klass.name);
 
             document.getElementById(config.classSelectionId).appendChild(option);
         });
@@ -85,7 +85,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
 
         let standardOption = document.createElement("option");
         standardOption.value = "nasta";
-        standardOption.innerText = "Närmaste lov";
+        standardOption.setScriptEscapedText("Närmaste lov");
         breakSelectionElem.appendChild(standardOption);
 
         klass.breaks.forEach(function (lov) {
@@ -95,7 +95,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
 
             let option = document.createElement("option");
             option.value = preBreak.id;
-            option.innerText = preBreak.name.charAt(0).toUpperCase() + preBreak.name.substring(1);
+            option.setScriptEscapedText(preBreak.name.charAt(0).toUpperCase() + preBreak.name.substring(1));
 
             breakSelectionElem.appendChild(option);
         });
@@ -210,7 +210,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
         function toggleShareButton(on) {
             document.getElementById(config.shareButtonId).disabled = !on;
 
-            document.getElementById(config.shareOutputId).innerText = "";
+            document.getElementById(config.shareOutputId).setScriptEscapedText("");
         }
 
     }

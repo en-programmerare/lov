@@ -135,9 +135,9 @@ LovnedraknarePresets, config, storageAvailable
 
         //lägg in animation här...
         if (distance < 0) {
-            document.getElementById(config.countdownDivId).innerText = finishedText;
+            document.getElementById(config.countdownDivId).setScriptEscapedText(finishedText);
         } else {
-            document.getElementById(config.countdownDivId).innerText = days + "d " + hours + "t " + minutes + "m " + seconds + "s";
+            document.getElementById(config.countdownDivId).setScriptEscapedText(days + "d " + hours + "t " + minutes + "m " + seconds + "s");
         }
     }
 
@@ -338,11 +338,11 @@ LovnedraknarePresets, config, storageAvailable
 
     //Ställ in informationen i popuprutan
     function setInformation(school, group, id, flags) {
-        document.getElementById(config.informationSchoolOutputId).innerText = school;
-        document.getElementById(config.informationClassOutputId).innerText = group;
-        document.getElementById(config.informationIdOutputId).innerText = id;
+        document.getElementById(config.informationSchoolOutputId).setScriptEscapedText(school);
+        document.getElementById(config.informationClassOutputId).setScriptEscapedText(group);
+        document.getElementById(config.informationIdOutputId).setScriptEscapedText(id);
         if (flags.length > 0)
-            document.getElementById(config.informationFlagsOutputId).innerText = "med extra val: " + flags;
+            document.getElementById(config.informationFlagsOutputId).setScriptEscapedText("med extra val: " + flags);
     }
 
     //Skapa en djup kopia av ett objekt (koppla loss referenser)
