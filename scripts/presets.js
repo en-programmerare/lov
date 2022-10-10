@@ -35,15 +35,15 @@ const LovnedraknarePresets = {
             },
             {
                id: "sommar",
-               startDate: "2023-06-12",
-               startTime: "10:00",
+               startDate: "2023-06-09",
+               startTime: "10:30",
                endDate: "2023-08-10",
                endTime: "00:00"
             },
             {
                id: "student",
-               startDate: "2023-06-12",
-               startTime: "10:00",
+               startDate: "2023-06-02",
+               startTime: "13:13",
                endDate: "2023-08-10",
                endTime: "00:00"
             }
