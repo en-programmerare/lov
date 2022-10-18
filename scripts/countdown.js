@@ -37,6 +37,8 @@ LovnedraknarePresets, config, storageAvailable
             flagBreaks: [],
             validFlags: []
         };
+		
+		//Om flaggor finns, ladda in dem
         if (flagsArg !== undefined) {
             flagBreaks = loadFlagBreaksFromFlagIds(flagsArg.value.split(config.flagsDelimiter), groupSettings.schoolId);
         }
@@ -147,6 +149,7 @@ LovnedraknarePresets, config, storageAvailable
     function loadSettings(id) {
         console.log("Initialise load settings for " + id);
         if (id === undefined) {
+			console.log("Invalid ID format");
             return loadStandardSettings();
         }
 
@@ -173,6 +176,7 @@ LovnedraknarePresets, config, storageAvailable
 
         if (!LovnedraknareFunctions.schoolExists(schoolId) || !LovnedraknareFunctions.classExists(schoolId, klassId)) {
             errorOccured();
+			console.log("Not found.");
             return loadStandardSettings();
         }
 
@@ -321,6 +325,7 @@ LovnedraknarePresets, config, storageAvailable
             });
 
             if (correctBreak === undefined) {
+				console.log("Break not found.");
                 return getCountdownBreak(breaks, config.nextBreakId);
             } else {
                 console.log("Loaded break " + correctBreak.id);
