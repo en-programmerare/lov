@@ -1,6 +1,9 @@
 /* globals
 LovnedraknarePresets
  */
+ 
+
+"use strict";
 
 /*
 Konfigurera saker här!

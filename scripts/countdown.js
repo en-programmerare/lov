@@ -3,6 +3,8 @@
 LovnedraknarePresets, config, storageAvailable
 
  */
+ 
+ "use strict";
 
 (function () {
 
@@ -126,7 +128,7 @@ LovnedraknarePresets, config, storageAvailable
 
     //Räkna ner till countdownDate med texten finishedText när det är klart
     function count(countdownDate, finishedText) {
-        now = new Date().getTime();
+        let now = new Date().getTime();
         let distance = countdownDate - now;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
