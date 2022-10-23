@@ -140,6 +140,67 @@ const LovnedraknarePresets = {
 		
 		
 		
+		
+		
+		{
+            id: "ostragrund",
+            name: "Östra grundskolan",
+            image: "",
+            breaks: [
+				{
+                    id: "host",
+                    startDate: "2022-10-28",
+                    startTime: "16:00",
+                    endDate: "2022-11-07",
+                    endTime: "00:00"
+                }, 
+				{
+                    id: "jul",
+                    startDate: "2022-12-21",
+                    startTime: "13:00",
+                    endDate: "2023-01-10",
+                    endTime: "00:00"
+                }, 
+				{
+                    id: "sport",
+                    startDate: "2023-02-24",
+                    startTime: "16:00",
+                    endDate: "2023-03-06",
+                    endTime: "00:00"
+                }, 
+				{
+                    id: "pask",
+                    startDate: "2023-04-06",
+                    startTime: "16:00",
+                    endDate: "2023-04-17",
+                    endTime: "00:00"
+                }, 
+				{
+                    id: "sommar",
+                    startDate: "2023-06-09",
+                    startTime: "10:30",
+                    endDate: "2023-08-10",
+                    endTime: "00:00"
+                }
+            ],
+            classes: [
+				{
+                    name: "7B",
+                    id: "7b1",
+                    breaks: [
+						{
+                            id: "host",
+                            startTime: "13:55"
+                        }
+                    ]
+                }
+            ]
+        },
+		
+		
+		
+		
+		
 		{
             id: "arlanda",
             name: "Arlandagymnasiet",
