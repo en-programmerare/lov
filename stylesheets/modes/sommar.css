@@ -1,17 +1,17 @@
 .sommar {
-  text-align: center;
-  color: limegreen;
-  text-shadow: 3px 2px white;
+    text-align: center;
+    color: limegreen;
+    text-shadow: 3px 2px white;
 }
 .sommarBakgrund {
-  background-image: url('../../images/sommar.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+    background-image: url('../../images/sommar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 @media only screen and (max-width: 620px) {
-   .sommar {
-      text-shadow: 2px 1px white;
-   }
+    .sommar {
+        text-shadow: 2px 1px white;
+    }
 }

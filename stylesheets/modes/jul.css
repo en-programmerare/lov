@@ -1,34 +1,34 @@
 .jul {
-  color: white;
-  text-shadow: 3px 2px red;
+    color: white;
+    text-shadow: 3px 2px red;
 }
 .julBakgrund {
-  background-image: url('https://cdn.pixabay.com/photo/2018/01/02/17/13/christmas-balls-3056638_960_720.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/02/17/13/christmas-balls-3056638_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 .slade {
-  position: absolute;
-  animation-name: flyg;
-  animation-duration: 10s;
-  width: 640px;
-  height: 545px;
+    position: absolute;
+    animation-name: flyg;
+    animation-duration: 10s;
+    width: 640px;
+    height: 545px;
   
 }
 @media only screen and (max-width: 620px) {
-   .jul {
-      text-shadow: 2px 1px red;
-   }
+    .jul {
+        text-shadow: 2px 1px red;
+    }
 }
 @keyframes flyg {
-  from {
-    top: calc(50vh - 272px);
-    left: calc(0vw - 640px);
-  }
-  to {
-    top: calc(50vh - 272px);
-    left: calc(100vw + 640px);
-  }
+    from {
+        top: calc(50vh - 272px);
+        left: calc(0vw - 640px);
+    }
+    to {
+        top: calc(50vh - 272px);
+        left: calc(100vw + 640px);
+    }
 }

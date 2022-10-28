@@ -1,17 +1,17 @@
 .student {
-  color: gold;
-  text-shadow: 5px 3px navy;
-  font-weight: bold;
+    color: gold;
+    text-shadow: 5px 3px navy;
+    font-weight: bold;
 }
 .studentBakgrund {
-  background-image: url('https://www.mitti.se/_internal/cimg!0/e13trmj53kski7jnkhn7nzq609d0wfm.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+    background-image: url('https://www.mitti.se/_internal/cimg!0/e13trmj53kski7jnkhn7nzq609d0wfm.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 @media only screen and (max-width: 620px) {
-   .student {
-      text-shadow: 3px 1px navy;
-   }
+    .student {
+        text-shadow: 3px 1px navy;
+    }
 }
