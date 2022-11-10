@@ -158,7 +158,7 @@ const LovnedraknarePresets = {
                 {
                     id: "jul",
                     startDate: "2022-12-21",
-                    startTime: "13:00",
+                    startTime: "12:00",
                     endDate: "2023-01-10",
                     endTime: "00:00"
                 }, 
@@ -190,8 +190,22 @@ const LovnedraknarePresets = {
                     id: "7b1",
                     breaks: [
                         {
-                            id: "host",
+                            id: "host"
+                        },
+                        {
+                            id: "jul",
                             startTime: "13:55"
+                        },
+                        {
+                            id: "sport",
+                            startTime: "13:55"
+                        },
+                        {
+                            id: "pask",
+                            startTime: "14:10"
+                        },
+                        {
+                            id: "sommar"
                         }
                     ]
                 }
