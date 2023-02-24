@@ -64,7 +64,7 @@ const LovnedraknarePresets = {
                         }, 
                         {
                             id: "sport",
-                            startTime: "12:35"
+                            startTime: "13:05"
                         }, 
                         {
                             id: "pask",
