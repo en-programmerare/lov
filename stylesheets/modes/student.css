@@ -4,7 +4,7 @@
     font-weight: bold;
 }
 .studentBakgrund {
-    background-image: url('https://www.mitti.se/_internal/cimg!0/e13trmj53kski7jnkhn7nzq609d0wfm.jpeg');
+    background-image: url('https://vellinge.se/siteassets/skolor/sundsgymnasiet/bilder/studentmossor-som-hojs-i-luften.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -12,6 +12,6 @@
 }
 @media only screen and (max-width: 620px) {
     .student {
-        text-shadow: 3px 1px navy;
+        text-shadow: 5px 3px navy;
     }
 }
