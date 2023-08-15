@@ -45,8 +45,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
             return a.name.localeCompare(b.name, "sv");
         });
 
-        schools.forEach(function (school) {
-
+        schools.filter(school => !school?.invisible).forEach(function (school) {
             let option = document.createElement("OPTION");
             option.value = school.id;
             option.setScriptEscapedText(school.name);
@@ -111,7 +110,7 @@ LovnedraknarePresets, storageAvailable, config, LovnedraknareFunctions
 
         schoolSelectionElem.addEventListener("change", schoolSelectionChanged);
         classSelectionElem.addEventListener("change", classSelectionChanged);
-        classSelectionElem.addEventListener("dblclick", classSelectionDoubleClicked);
+        //classSelectionElem.addEventListener("dblclick", classSelectionDoubleClicked); Inga extraflaggor för tillfället.
         breakSelectionElem.addEventListener("change", breakSelectionChanged);
         applyButtonElem.addEventListener("click", applyButtonPressed);
         shareButtonElem.addEventListener("click", shareButtonPressed);

@@ -20,7 +20,7 @@ const config = {
 
     delimiter: "@", //Avgränsaren i url mellan <klass><skola>
     flagsDelimiter: ",", //Avgränsaren i flaggorna
-    standard: "tete20@ostra", //standard som används om ingen annan nedräkning anges
+    standard: "generic@standard", //standard som används om ingen annan nedräkning anges
 
 
     localStorageStandardClass: "lovnedraknarenStandard", //nyckel för localStorage, standardklass
