@@ -62,7 +62,80 @@ const LovnedraknarePresets = {
                             id: "pask"
                         }, 
                         {
-                            id: "student"
+                            id: "sommar"
+                        }
+                    ]
+                }
+            ] 
+        },
+        
+        
+        
+        
+        {
+            id: "ostragrund",
+            name: "Östra grundskolan",
+            image: "images/schools/standard.jpg",
+            invisible: false,
+            breaks: [
+                {
+                    id: "sommar",
+                    startDate: "2024-06-09",
+                    startTime: "12:00",
+                    endDate: "2024-08-10",
+                    endTime: "00:00"
+                },
+                {
+                    id: "host",
+                    startDate: "2024-10-25",
+                    startTime: "16:00",
+                    endDate: "2024-11-04",
+                    endTime: "00:00"
+                }, 
+                {
+                    id: "jul",
+                    startDate: "2024-12-19",
+                    startTime: "13:00",
+                    endDate: "2025-01-08",
+                    endTime: "00:00"
+                }, 
+                {
+                    id: "sport",
+                    startDate: "2025-02-21",
+                    startTime: "16:00",
+                    endDate: "2025-03-03",
+                    endTime: "00:00"
+                }, 
+                {
+                    id: "pask",
+                    startDate: "2025-04-11",
+                    startTime: "16:00",
+                    endDate: "2025-04-22",
+                    endTime: "00:00"
+                }
+                
+            ],
+            
+            
+            classes: [
+                {
+                    name: "9B",
+                    id: "9b",
+                    breaks: [
+                        {
+                            id: "host"
+                        }, 
+                        {
+                            id: "jul"
+                        }, 
+                        {
+                            id: "sport"
+                        }, 
+                        {
+                            id: "pask"
+                        }, 
+                        {
+                            id: "sommar"
                         }
                     ]
                 }
