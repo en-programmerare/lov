@@ -8,37 +8,37 @@ const LovnedraknarePresets = {
             breaks: [
                 {
                     id: "host",
-                    startDate: "2023-10-28",
+                    startDate: "2024-10-28",
                     startTime: "16:00",
-                    endDate: "2023-11-07",
+                    endDate: "2024-11-07",
                     endTime: "00:00"
                 }, 
                 {
                     id: "jul",
-                    startDate: "2023-12-21",
+                    startDate: "2024-12-21",
                     startTime: "13:00",
-                    endDate: "2024-01-10",
+                    endDate: "2025-01-10",
                     endTime: "00:00"
                 }, 
                 {
                     id: "sport",
-                    startDate: "2024-02-24",
+                    startDate: "2025-02-24",
                     startTime: "16:00",
-                    endDate: "2024-03-06",
+                    endDate: "2025-03-06",
                     endTime: "00:00"
                 }, 
                 {
                     id: "pask",
-                    startDate: "2024-04-06",
+                    startDate: "2025-04-06",
                     startTime: "16:00",
-                    endDate: "2024-04-17",
+                    endDate: "2025-04-17",
                     endTime: "00:00"
                 }, 
                 {
                     id: "sommar",
-                    startDate: "2024-06-09",
+                    startDate: "2025-06-09",
                     startTime: "12:00",
-                    endDate: "2024-08-10",
+                    endDate: "2025-08-10",
                     endTime: "00:00"
                 }
             ],
