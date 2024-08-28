@@ -80,9 +80,9 @@ const LovnedraknarePresets = {
             breaks: [
                 {
                     id: "sommar",
-                    startDate: "2024-06-09",
+                    startDate: "2025-06-09",
                     startTime: "12:00",
-                    endDate: "2024-08-10",
+                    endDate: "2025-08-10",
                     endTime: "00:00"
                 },
                 {
